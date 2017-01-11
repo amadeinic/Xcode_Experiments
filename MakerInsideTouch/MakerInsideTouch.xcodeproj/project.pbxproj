@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B311CCD51E0450A700DE17FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311CCD41E0450A700DE17FF /* AppDelegate.swift */; };
+		B311CCD71E0450A700DE17FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311CCD61E0450A700DE17FF /* ViewController.swift */; };
+		B311CCD91E0450A700DE17FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B311CCD81E0450A700DE17FF /* Assets.xcassets */; };
+		B311CCDC1E0450A700DE17FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B311CCDA1E0450A700DE17FF /* Main.storyboard */; };
+		B311CCE71E0450A800DE17FF /* MakerInsideTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311CCE61E0450A800DE17FF /* MakerInsideTouchTests.swift */; };
+		B311CCF21E0450A800DE17FF /* MakerInsideTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311CCF11E0450A800DE17FF /* MakerInsideTouchUITests.swift */; };
+		B3296D0F1E0952C900295ED5 /* NAWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3296D0E1E0952C900295ED5 /* NAWindowController.swift */; };
+		B3365C0C1E197182003451C0 /* ico in Resources */ = {isa = PBXBuildFile; fileRef = B3365C0B1E197182003451C0 /* ico */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B311CCE31E0450A800DE17FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B311CCC91E0450A700DE17FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B311CCD01E0450A700DE17FF;
+			remoteInfo = MakerInsideTouch;
+		};
+		B311CCEE1E0450A800DE17FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B311CCC91E0450A700DE17FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B311CCD01E0450A700DE17FF;
+			remoteInfo = MakerInsideTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B311CCD11E0450A700DE17FF /* MakerInsideTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakerInsideTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B311CCD41E0450A700DE17FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B311CCD61E0450A700DE17FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B311CCD81E0450A700DE17FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B311CCDB1E0450A700DE17FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B311CCDD1E0450A700DE17FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B311CCE21E0450A800DE17FF /* MakerInsideTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakerInsideTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B311CCE61E0450A800DE17FF /* MakerInsideTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerInsideTouchTests.swift; sourceTree = "<group>"; };
+		B311CCE81E0450A800DE17FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B311CCED1E0450A800DE17FF /* MakerInsideTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakerInsideTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B311CCF11E0450A800DE17FF /* MakerInsideTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerInsideTouchUITests.swift; sourceTree = "<group>"; };
+		B311CCF31E0450A800DE17FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3296D0E1E0952C900295ED5 /* NAWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NAWindowController.swift; sourceTree = "<group>"; };
+		B3365C0B1E197182003451C0 /* ico */ = {isa = PBXFileReference; lastKnownFileType = file; name = ico; path = Things/ico; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B311CCCE1E0450A700DE17FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B311CCDF1E0450A800DE17FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B311CCEA1E0450A800DE17FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B311CCC81E0450A700DE17FF = {
+			isa = PBXGroup;
+			children = (
+				B311CCD31E0450A700DE17FF /* MakerInsideTouch */,
+				B311CCE51E0450A800DE17FF /* MakerInsideTouchTests */,
+				B311CCF01E0450A800DE17FF /* MakerInsideTouchUITests */,
+				B311CCD21E0450A700DE17FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B311CCD21E0450A700DE17FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B311CCD11E0450A700DE17FF /* MakerInsideTouch.app */,
+				B311CCE21E0450A800DE17FF /* MakerInsideTouchTests.xctest */,
+				B311CCED1E0450A800DE17FF /* MakerInsideTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B311CCD31E0450A700DE17FF /* MakerInsideTouch */ = {
+			isa = PBXGroup;
+			children = (
+				B3296D091E094C8500295ED5 /* Visual */,
+				B311CCD41E0450A700DE17FF /* AppDelegate.swift */,
+				B311CCD61E0450A700DE17FF /* ViewController.swift */,
+				B311CCD81E0450A700DE17FF /* Assets.xcassets */,
+				B311CCDA1E0450A700DE17FF /* Main.storyboard */,
+				B311CCDD1E0450A700DE17FF /* Info.plist */,
+				B3296D0E1E0952C900295ED5 /* NAWindowController.swift */,
+			);
+			path = MakerInsideTouch;
+			sourceTree = "<group>";
+		};
+		B311CCE51E0450A800DE17FF /* MakerInsideTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				B311CCE61E0450A800DE17FF /* MakerInsideTouchTests.swift */,
+				B311CCE81E0450A800DE17FF /* Info.plist */,
+			);
+			path = MakerInsideTouchTests;
+			sourceTree = "<group>";
+		};
+		B311CCF01E0450A800DE17FF /* MakerInsideTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B311CCF11E0450A800DE17FF /* MakerInsideTouchUITests.swift */,
+				B311CCF31E0450A800DE17FF /* Info.plist */,
+			);
+			path = MakerInsideTouchUITests;
+			sourceTree = "<group>";
+		};
+		B3296D091E094C8500295ED5 /* Visual */ = {
+			isa = PBXGroup;
+			children = (
+				B3365C0B1E197182003451C0 /* ico */,
+			);
+			name = Visual;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B311CCD01E0450A700DE17FF /* MakerInsideTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B311CCF61E0450A800DE17FF /* Build configuration list for PBXNativeTarget "MakerInsideTouch" */;
+			buildPhases = (
+				B311CCCD1E0450A700DE17FF /* Sources */,
+				B311CCCE1E0450A700DE17FF /* Frameworks */,
+				B311CCCF1E0450A700DE17FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakerInsideTouch;
+			productName = MakerInsideTouch;
+			productReference = B311CCD11E0450A700DE17FF /* MakerInsideTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B311CCE11E0450A800DE17FF /* MakerInsideTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B311CCF91E0450A800DE17FF /* Build configuration list for PBXNativeTarget "MakerInsideTouchTests" */;
+			buildPhases = (
+				B311CCDE1E0450A800DE17FF /* Sources */,
+				B311CCDF1E0450A800DE17FF /* Frameworks */,
+				B311CCE01E0450A800DE17FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B311CCE41E0450A800DE17FF /* PBXTargetDependency */,
+			);
+			name = MakerInsideTouchTests;
+			productName = MakerInsideTouchTests;
+			productReference = B311CCE21E0450A800DE17FF /* MakerInsideTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B311CCEC1E0450A800DE17FF /* MakerInsideTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B311CCFC1E0450A800DE17FF /* Build configuration list for PBXNativeTarget "MakerInsideTouchUITests" */;
+			buildPhases = (
+				B311CCE91E0450A800DE17FF /* Sources */,
+				B311CCEA1E0450A800DE17FF /* Frameworks */,
+				B311CCEB1E0450A800DE17FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B311CCEF1E0450A800DE17FF /* PBXTargetDependency */,
+			);
+			name = MakerInsideTouchUITests;
+			productName = MakerInsideTouchUITests;
+			productReference = B311CCED1E0450A800DE17FF /* MakerInsideTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B311CCC91E0450A700DE17FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nicola Amadei";
+				TargetAttributes = {
+					B311CCD01E0450A700DE17FF = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					B311CCE11E0450A800DE17FF = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B311CCD01E0450A700DE17FF;
+					};
+					B311CCEC1E0450A800DE17FF = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B311CCD01E0450A700DE17FF;
+					};
+				};
+			};
+			buildConfigurationList = B311CCCC1E0450A700DE17FF /* Build configuration list for PBXProject "MakerInsideTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B311CCC81E0450A700DE17FF;
+			productRefGroup = B311CCD21E0450A700DE17FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B311CCD01E0450A700DE17FF /* MakerInsideTouch */,
+				B311CCE11E0450A800DE17FF /* MakerInsideTouchTests */,
+				B311CCEC1E0450A800DE17FF /* MakerInsideTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B311CCCF1E0450A700DE17FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3365C0C1E197182003451C0 /* ico in Resources */,
+				B311CCD91E0450A700DE17FF /* Assets.xcassets in Resources */,
+				B311CCDC1E0450A700DE17FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B311CCE01E0450A800DE17FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B311CCEB1E0450A800DE17FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B311CCCD1E0450A700DE17FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3296D0F1E0952C900295ED5 /* NAWindowController.swift in Sources */,
+				B311CCD71E0450A700DE17FF /* ViewController.swift in Sources */,
+				B311CCD51E0450A700DE17FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B311CCDE1E0450A800DE17FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B311CCE71E0450A800DE17FF /* MakerInsideTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B311CCE91E0450A800DE17FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B311CCF21E0450A800DE17FF /* MakerInsideTouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B311CCE41E0450A800DE17FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B311CCD01E0450A700DE17FF /* MakerInsideTouch */;
+			targetProxy = B311CCE31E0450A800DE17FF /* PBXContainerItemProxy */;
+		};
+		B311CCEF1E0450A800DE17FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B311CCD01E0450A700DE17FF /* MakerInsideTouch */;
+			targetProxy = B311CCEE1E0450A800DE17FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B311CCDA1E0450A700DE17FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B311CCDB1E0450A700DE17FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B311CCF41E0450A800DE17FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B311CCF51E0450A800DE17FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		B311CCF71E0450A800DE17FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MakerInsideTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.fablabromagna.MakerInsideTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B311CCF81E0450A800DE17FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MakerInsideTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.fablabromagna.MakerInsideTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B311CCFA1E0450A800DE17FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MakerInsideTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.fablabromagna.MakerInsideTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakerInsideTouch.app/Contents/MacOS/MakerInsideTouch";
+			};
+			name = Debug;
+		};
+		B311CCFB1E0450A800DE17FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MakerInsideTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.fablabromagna.MakerInsideTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakerInsideTouch.app/Contents/MacOS/MakerInsideTouch";
+			};
+			name = Release;
+		};
+		B311CCFD1E0450A800DE17FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MakerInsideTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.fablabromagna.MakerInsideTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MakerInsideTouch;
+			};
+			name = Debug;
+		};
+		B311CCFE1E0450A800DE17FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MakerInsideTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.fablabromagna.MakerInsideTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MakerInsideTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B311CCCC1E0450A700DE17FF /* Build configuration list for PBXProject "MakerInsideTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B311CCF41E0450A800DE17FF /* Debug */,
+				B311CCF51E0450A800DE17FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B311CCF61E0450A800DE17FF /* Build configuration list for PBXNativeTarget "MakerInsideTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B311CCF71E0450A800DE17FF /* Debug */,
+				B311CCF81E0450A800DE17FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B311CCF91E0450A800DE17FF /* Build configuration list for PBXNativeTarget "MakerInsideTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B311CCFA1E0450A800DE17FF /* Debug */,
+				B311CCFB1E0450A800DE17FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B311CCFC1E0450A800DE17FF /* Build configuration list for PBXNativeTarget "MakerInsideTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B311CCFD1E0450A800DE17FF /* Debug */,
+				B311CCFE1E0450A800DE17FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B311CCC91E0450A700DE17FF /* Project object */;
+}
